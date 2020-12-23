@@ -1,0 +1,33 @@
+ul {
+    list-style: none;
+    padding: 0;
+    display:table; 
+    text-align:center;
+    width: 100%;
+}
+
+li {
+    margin: 12px;
+}
+
+li > img, li > span {
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+li > span {
+    color: #ffffff;
+    display: none;
+}
+
+li > img {
+    width: 32px;
+    border-radius: 50px;
+    padding: 4px;
+    margin-right: 12px;
+    margin-left: 10px;
+}
+
+li > img.active {
+    background: blue;
+}

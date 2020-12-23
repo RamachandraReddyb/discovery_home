@@ -1,0 +1,7 @@
+@import './_settings/_variables.css';
+@import './_settings/_base.css';
+
+.app {
+    /* background-color: var(--grey-1); */
+    height: 100vh;
+}
