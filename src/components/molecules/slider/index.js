@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from '../../atoms/title';
 
 class Slider extends React.Component {
 
@@ -10,9 +11,12 @@ class Slider extends React.Component {
 
     render () {
         return (
-            <div className="site">
-                { this.renderedList() }
-            </div>
+            <React.Fragment>
+                <Title  titleText={this.props.headings} classNames="header-text" />
+                <div className="site">
+                    { this.renderedList() }
+                </div>
+            </React.Fragment>
         );
     }
 }
